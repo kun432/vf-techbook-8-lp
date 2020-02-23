@@ -790,6 +790,11 @@ section.lazy-placeholder:after {
 .cid-rRfdEBsTMz .item-content {
   padding-top: 2rem;
 }
+.cid-rRiZgusEnM {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
 .cid-rRacbUKXGa .navbar {
   padding: .5rem 0;
   background: #334d89;
@@ -1315,6 +1320,11 @@ section.lazy-placeholder:after {
     height: auto !important;
   }
 }
+.cid-rRiZesdLGm {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
 .cid-rRftXqAZRy {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -1342,6 +1352,73 @@ section.lazy-placeholder:after {
 @media (max-width: 768px) {
   .cid-rRfw31x8XA .image-block {
     width: 100% !important;
+  }
+}
+.cid-rRiYNjotaZ {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rRiXZgFfi4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-facebook {
+  background: #3e5b98;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-twitter {
+  background: #4da7de;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-googleplus {
+  background: #dd4b39;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-vkontakte {
+  background: #5a7fa6;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-odnoklassniki {
+  background: #f48420;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-pinterest {
+  background: #c92619;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .socicon-bg-mail {
+  background: #134785;
+  color: #ffffff;
+}
+.cid-rRiXZgFfi4 .btn-social {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border: none !important;
+}
+.cid-rRiXZgFfi4 .btn-social i {
+  top: 0;
+  line-height: 44px;
+  width: 44px;
+}
+.cid-rRiXZgFfi4 .btn-social + .btn {
+  margin-left: .1rem;
+}
+.cid-rRiXZgFfi4 [class^="socicon-"]:before,
+.cid-rRiXZgFfi4 [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+@media (max-width: 767px) {
+  .cid-rRiXZgFfi4 .btn {
+    font-size: 20px !important;
   }
 }
 .cid-rRddOi88r1 {
