@@ -800,11 +800,10 @@ section.lazy-placeholder:after {
 }
 .cid-rRj3Rg7JZq {
   background: #ffffff;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 .cid-rRj3Rg7JZq .image-block {
   margin: auto;
+  width: 100% !important;
 }
 .cid-rRj3Rg7JZq figcaption {
   position: relative;
