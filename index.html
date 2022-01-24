@@ -573,7 +573,37 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  
+<script src="https://www.dropbox.com/s/c0eqmylhqi6sdah/chatux.cores.js?dl=1"></script>
+<script>
+    const chatux = new ChatUx();
+
+    //ChatUXの初期化パラメータ
+ const initParam =
+        {
+            renderMode: 'auto',
+            api: {
+                //echo chat server
+                endpoint: 'https://390b-217-178-198-18.ngrok.io/chat',
+                method: 'POST',
+                dataType: 'json'
+            },
+            bot: {
+                botPhoto: 'https://riversun.github.io/chatbot/bot_icon_operator.png',
+                humanPhoto: null,
+                widget: {
+                    sendLabel: '送信',
+                    placeHolder: '何か話しかけてみてください'
+                }
+            },
+            window: {
+                title: 'エコーボット',
+                infoUrl: 'https://github.com/riversun/chatux'
+            }
+        };
+    chatux.init(initParam);
+    chatux.start(true);
+
+</script>  
   
 </body>
 </html>
